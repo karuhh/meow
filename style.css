@@ -96,12 +96,21 @@ header .logo span {
     box-shadow: #333;
 }
 
-.navbar a {
+.navbar a{
     font-size: 2rem;
     padding: 0 1.5rem;
     color: #ffffff;
     background-color: var(--navy);
 }
+
+
+.bcm a:hover {
+    color: var(--blue);
+    transform: translateX(4px);
+
+}
+
+
 
 .navbar a:hover {
     color: var(--blue);
@@ -135,28 +144,6 @@ header .logo span {
 }
 
 
-.icons a {
-    font-size: 3rem;
-    color: #ffffff;
-    margin-right: 2rem;
-}
-
-
-header #toggler {
-
-    display: none;
-}
-
-header .fa-bars {
-
-    font-size: 3rem;
-    color: #333;
-    border-radius: .5rem;
-    padding: .5rem 1.5rem;
-    cursor: pointer;
-    border: .1rem solid rgba(0, 0, 0, .3);
-    display: none;
-}
 
 .home {
     display: flex;
@@ -221,7 +208,19 @@ header .fa-bars {
     position: absolute;
     top: 1rem;
     padding: .7rem 1rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
+    color: rgb(232, 152, 14);
+    background: rgb(255, 255, 255);
+    z-index: 1;
+    border-radius: .5rem;
+font-weight: bold;
+}
+
+.test .boxcontainer .image .quantity1 {
+    position: absolute;
+    top: 1rem;
+    padding: .5rem 0;
+    font-size: 3rem;
     color: var(--blue);
     background: rgb(255, 255, 255);
     z-index: 1;
@@ -294,7 +293,6 @@ header .fa-bars {
     align-items: center;
     position: sticky;
     z-index: 1000;
-    margin-bottom: 70px;
     justify-content: space-between;
     display: flex;
     align-items: center;
@@ -338,6 +336,7 @@ header .fa-bars {
     border: .1rem solid rgba(0, 0, 0, 0.218);
     position: relative;
     display: flex;
+background-color: white;
 
 }
 
@@ -354,7 +353,6 @@ header .fa-bars {
     position: relative;
     font-size: 2rem;
     padding: 2rem;
-
 }
 
 .info .rating {
@@ -459,7 +457,7 @@ header .fa-bars {
     border-radius: 2rem;
     border: .1rem solid rgba(0, 0, 0, .1);
     margin-top: 50px;
-
+background-color: white;
     padding: 1rem;
     border-radius: 12px;
 }
@@ -784,6 +782,8 @@ header .fa-bars {
     border: .1rem solid rgba(0, 0, 0, .1);
     position: relative;
     height: 100%;
+    background-color: white;
+
 
 }
 
@@ -846,6 +846,7 @@ body {
     text-align: center;
     max-height: 500px;
     position: sticky;
+background-color: white;
 
     top: 50px;
 }
@@ -854,6 +855,7 @@ table {
     border-collapse: collapse;
     width: 100%;
 
+background-color: white;
 
 }
 
@@ -897,4 +899,38 @@ svg:hover {
     width: 9%;
     height: auto;
     cursor: pointer;
+}
+
+.form{
+font-size: 2rem;
+color: #333;
+text-align: center;
+}
+
+.form a{
+    color: rgb(10, 0, 205);
+}
+
+.circle{
+border-radius: 50%;
+    height: 175px;
+object-fit: cover;
+    width: auto;
+}
+.member{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.mem h1{
+    padding: 1rem;
+}
+
+.mem p{
+    font-size: 1.5rem;
+}
+
+.form h2{
+    padding-top: 3rem;
 }
