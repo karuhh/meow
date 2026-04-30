@@ -940,4 +940,19 @@ display: flex;
 gap: 10rem;
 }
 
+.choice{
+    display: flex;
+    gap: 1rem;
+    font-size: 2rem;
+}
 
+.q h2{
+    display: flex;
+    gap: 1rem;
+    font-size: 3rem;
+}
+
+.end a{
+    justify-content: center;
+    text-align: center;
+}
